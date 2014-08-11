@@ -1,2 +1,4 @@
 ---
 # tasks file for phpmyadmin
+- name: "[INSTALL] Packages"
+  yum: name=phpmyadmin state=present
